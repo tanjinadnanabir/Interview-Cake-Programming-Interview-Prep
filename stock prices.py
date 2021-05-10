@@ -1,6 +1,7 @@
 def get_max_profit(stock_prices):
 
     # Calculate the max profit
+    
     if len(stock_prices) < 2:
         raise ValueError('Getting a profit requires at least 2 prices')
 
